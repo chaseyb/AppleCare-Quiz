@@ -1,0 +1,90 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: white;
+  }
+  
+  .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0.2rem 0 #333;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #7D7D7D;
+    color: white;
+  }
+  
+  .choice-text {
+    color: black;
+    padding: 1.5rem;
+    width: 100%;
+    font-family: Helvetica;
+  }
+  
+  .correct {
+    background-color: #c6f1ad;
+  }
+  
+  .incorrect {
+    background-color: #f5bcc2;
+  }
+  
+  /* HUD */
+  
+  #hud {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .hud-main-text {
+    text-align: center;
+  }
+  
+  #progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.1rem solid black;
+    margin-top: 1.5rem;
+  }
+  
+  #progressBarFull {
+    height: 3.8rem;
+    background-color: #D0112B;
+    width: 0%;
+  }
+  
+  /* LOADER */
+  #loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.2rem solid #7D7D7D;;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+  }
+
+   /* Timer */
+
+   #timer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.timer-main-text {
+    text-align: center;
+}
