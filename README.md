@@ -1,16 +1,8 @@
-# 04 Web APIs: Code Quiz
+# AppleCare+ Quiz
 
 # Getting Started
 
-* open gitbash on Windows or Terminal on Mac
-
-* git clone https://github.com/chaseyb/code-quiz.git
-
-* enjoy
-
-# Description 
-
-In this HW assignment our task was to build a timed coding quiz that utilizes CSS, HTML, and JavaScript. This quiz has a total of 5 questions. When you press start the quiz will give the user 60 seconds to answer all of the questions. Each question is worth 10 points for a total number of 50. To make the game more interesting for every correct answer the game clock awards 5 seconds to the timer. For every wrong answer the game clock minuses 10 seconds off the timer. After the game is finished the user may save their highscore into the local database. The local database will store a max of 5 scores. After the score is saved the user may try again or return to the home page.
+This is a fun quiz I made to test your knowledge about AppleCare+! 
 
 # Functionality 
 
@@ -20,7 +12,12 @@ In this HW assignment our task was to build a timed coding quiz that utilizes CS
 
 * A functional timer
 
-* Index page with the high-score and game button links
+# Copyright
 
-* Saving high-scores to local storage
+For educational purposes only. Generally “Educational Purposes” means (i) in the case of a Qualified Educational Institution, Faculty or Other Authorized Educational Licensees, purposes directly related to learning, teaching, training, research and development that are part of the instructional functions performed by a Qualified Educational Institution or Other Authorized Educational Licensee and (ii) in the case of Students, purposes related to learning, training, research or development. “Educational Purposes” does not include commercial, professional or any other for-profit purposes.
+
+
+
+
+
 
