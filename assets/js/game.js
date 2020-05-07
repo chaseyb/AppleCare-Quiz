@@ -21,7 +21,7 @@ let questions = [
     choice1: "90 Days",
     choice2: "70 Days",
     choice3: "60 Days",
-    choice4: "40 Days",
+    choice4: "30 Days",
     answer: 3
     },
     {
