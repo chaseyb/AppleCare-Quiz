@@ -13,18 +13,18 @@ var loseSound = new Audio("assets/sounds/Quack.mp3");
 var winSound = new Audio("assets/sounds/Clink.mp3");
 
 var timerInterval;
-var timerCount = 60;
+var timerCount = 120;
 
 let questions = [
-    {
+  {
     question: "How long does a customer have to add AppleCare+ after they purchase a new iPhone?",
     choice1: "90 Days",
     choice2: "70 Days",
     choice3: "60 Days",
     choice4: "40 Days",
     answer: 3
-    },
-    {
+  },
+  {
 
     question: "Where can you purchase AppleCare+?",
     choice1: "Online",
@@ -32,24 +32,24 @@ let questions = [
     choice3: "In Store",
     choice4: "All of the above",
     answer: 4
-    },
-    {
+  },
+  {
     question: "When was AppleCare+ for Mac introduced?",
     choice1: "2016",
     choice2: "2017",
     choice3: "2018",
     choice4: "2019",
     answer: 2
-    },
-    {
+  },
+  {
     question: "What's the most expensive AppleCare+ plan we offer?",
     choice1: "Monthly",
     choice2: "Mac",
     choice3: "Apple Display",
     choice4: "Theft & Loss",
     answer: 1
-    },
-    {
+  },
+  {
     question: "Which one isn't an example of AppleCare for Enterprise Support?",
     choice1: "24/7 Support",
     choice2: "Flexible Service Options",
@@ -124,7 +124,7 @@ choices.forEach(choice => {
       incrementScore(CORRECT_BONUS);
       winSound.play();
     } else {
-      timerCount = timerCount - 10;
+      timerCount = timerCount - 5;
       loseSound.play();
     }
 
