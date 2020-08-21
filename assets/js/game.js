@@ -13,7 +13,7 @@ var loseSound = new Audio("assets/sounds/Quack.mp3");
 var winSound = new Audio("assets/sounds/Clink.mp3");
 
 var timerInterval;
-var timerCount = 120;
+var timerCount = 180;
 
 let questions = [
   {
